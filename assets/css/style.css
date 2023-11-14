@@ -126,7 +126,7 @@ p {
     gap: 20px;    ;
 }
 .section-4 img {
-    max-width: 30%;
+    max-width: 30;
     max-height: 30%;
     height: fit-content;
     width: fit-content;
@@ -159,8 +159,8 @@ p {
 }
 
 .div-5 img {
-    max-width: 33%;
-    max-height: 33%;
+    max-width: 30%;
+    max-height: 30%;
     height: fit-content;
     width: fit-content;
 }
