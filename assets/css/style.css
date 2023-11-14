@@ -8,3 +8,9 @@
     box-sizing: border-box;
     font-family: 'merryweather';
 }
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+
+}
