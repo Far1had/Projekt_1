@@ -75,7 +75,7 @@ p {
 }
 .buttons {
     margin-top: 20px;
-    /* display: flex; */
+    display: flex; 
 }
 
 .section-2 {
