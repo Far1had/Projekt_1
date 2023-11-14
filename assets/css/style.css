@@ -8,6 +8,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'merryweather';
+    text-decoration: none;
+    list-style: none;
 }
 
 nav {
@@ -73,9 +75,10 @@ p {
     margin-left: 10px;
 
 }
+
 .buttons {
     margin-top: 20px;
-    display: flex; 
+    display: flex;
 }
 
 .section-2 {
@@ -96,4 +99,135 @@ p {
     max-width: 30%;
 }
 
+.pic2 {
+    margin-left: 8rem;
+}
 
+.section-3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    margin-top: 3%;
+}
+
+.pic3 {
+    padding-left: 20%;
+}
+.section-4 {
+    display: flex;
+    align-items: self-start;
+    justify-content: center;
+    margin-top: 3%;
+    flex-wrap: wrap;
+}
+.div-4 {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;    ;
+}
+.section-4 img {
+    max-width: 30%;
+    max-height: 30%;
+    height: fit-content;
+    width: fit-content;
+}
+
+
+.section-4 img:hover {
+    box-shadow: 0 0 20px black;
+}
+
+.textpad-2 {
+    text-align: center;
+    margin: 0 20%;
+}
+
+.section-5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20vh;
+}
+
+.div-5 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 4vh;
+}
+
+.div-5 img {
+    max-width: 33%;
+    max-height: 33%;
+    height: fit-content;
+    width: fit-content;
+}
+.div-5 img:hover {
+    box-shadow: 0 0 20px black;
+}
+
+
+.section-6 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    flex-wrap: wrap;
+}
+
+.div-6 {
+    display: flex;
+    text-align: center;
+    background-color: azure;
+    padding: 30px 50px;
+    margin-top: 7vh;
+}
+
+.div-6  h2 {
+    margin: 20px 0;
+}
+
+.textpad-4 {
+    color: grey;
+    padding-bottom: 10px;
+}
+
+.div-6 p {
+    font-size: 0.7rem;
+    margin: 0;
+}
+
+.div-6 a {
+    color: white;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    padding: 10px;
+    display: block;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    margin: 5vh 0;
+}
+
+.followme {
+    color: grey;
+}
+
+.black {
+    color: black;
+}
+
+.orange {
+    color: orange;
+}
+
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
